@@ -4,6 +4,7 @@ steps:
     - name: 'docker'
       args: ['build','-t','app','.']
 
+    # Migrate
     - name: 'docker'
       args: ['run','app','python3','manage.py','migrate']
       
