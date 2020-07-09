@@ -25,7 +25,7 @@ SECRET_KEY = '$_9fx(clesstv553*6yr3nl1a)bwv6&##%tjd0plou7r2$-mov'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-PASSWORD = '123dd'
+password = "abcde"
 
 ALLOWED_HOSTS = []
 
