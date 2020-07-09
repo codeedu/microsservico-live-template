@@ -1,0 +1,10 @@
+steps:
+
+    - name: 'docker'
+      args: ['build','-t','app','.']
+
+    - name: 'docker'
+      args: ['run','app','python3','manage.py','migrate']
+      
+    - name: 'docker'
+      args: ['run','app','python3','manage.py','test']      
