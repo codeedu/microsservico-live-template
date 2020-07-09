@@ -1,5 +1,6 @@
 steps:
 
+    # Build
     - name: 'docker'
       args: ['build','-t','app','.']
 
